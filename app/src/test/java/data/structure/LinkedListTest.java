@@ -101,4 +101,32 @@ public class LinkedListTest {
         _Node notUsedNode = new _Node(false);
         assertEquals(-1, linkedList.contains(notUsedNode));
     }
+    @Test
+    public void deleteShouldRemoveGivenNode() {
+        LinkedList linkedList = new LinkedList();
+        _Node newNode1 = new _Node(1);
+        linkedList.add(newNode1);
+        _Node newNode2 = new _Node("second");
+        linkedList.add(newNode2);
+        _Node newNode3 = new _Node(true);
+        linkedList.add(newNode3);
+        linkedList.delete(newNode2);
+        assertEquals(-1, linkedList.contains(newNode2));
+        assertEquals(0, linkedList.contains(newNode1));
+        assertEquals(1, linkedList.contains(newNode3));
+    }
+    @Test
+    public void deleteShouldRemoveNodeGivenInt() {
+        LinkedList linkedList = new LinkedList();
+        _Node newNode1 = new _Node(1);
+        linkedList.add(newNode1);
+        _Node newNode2 = new _Node("second");
+        linkedList.add(newNode2);
+        _Node newNode3 = new _Node(true);
+        linkedList.add(newNode3);
+        linkedList.delete(2);
+        assertEquals(-1, linkedList.contains(newNode2));
+        assertEquals(0, linkedList.contains(newNode1));
+        assertEquals(1, linkedList.contains(newNode3));
+    }
 }
