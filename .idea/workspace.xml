@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071381a5-3ec4-4fb4-910d-d1427dde2187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/dataStructure/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/dataStructure/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <recent name="data.structure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest">
+  <component name="RunManager" selected="JUnit.StackTest.pushShouldAddNewObjectToTheTopOfStack">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -101,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.addShouldAddNewNodeToBackOfQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.isEmptyShouldBeTrueForEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -110,14 +109,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
-      <option name="METHOD_NAME" value="addShouldAddNewNodeToBackOfQueue" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
+      <option name="METHOD_NAME" value="isEmptyShouldBeTrueForEmptyStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.peakShouldReturnDataForTheFrontItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.peekShouldReturnNullForEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -126,14 +125,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
-      <option name="METHOD_NAME" value="peakShouldReturnDataForTheFrontItem" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
+      <option name="METHOD_NAME" value="peekShouldReturnNullForEmptyStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.peakShouldReturnNullForEmptyQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.peekShouldReturnTheTopObjectOnNonEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -142,14 +141,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
-      <option name="METHOD_NAME" value="peakShouldReturnNullForEmptyQueue" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
+      <option name="METHOD_NAME" value="peekShouldReturnTheTopObjectOnNonEmptyStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.removeShouldRemoveTheFrontItemAndReturnItsData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.pushShouldAddNewObjectToTheTopOfStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +157,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
-      <option name="METHOD_NAME" value="removeShouldRemoveTheFrontItemAndReturnItsData" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
+      <option name="METHOD_NAME" value="pushShouldAddNewObjectToTheTopOfStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest.pushShouldAddNewObjectToTheTopOfStack" />
+        <item itemvalue="JUnit.StackTest.peekShouldReturnTheTopObjectOnNonEmptyStack" />
+        <item itemvalue="JUnit.StackTest.peekShouldReturnNullForEmptyStack" />
+        <item itemvalue="JUnit.StackTest.isEmptyShouldBeTrueForEmptyStack" />
         <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.removeShouldRemoveTheFrontItemAndReturnItsData" />
-        <item itemvalue="JUnit.QueueTest.addShouldAddNewNodeToBackOfQueue" />
-        <item itemvalue="JUnit.QueueTest.peakShouldReturnDataForTheFrontItem" />
-        <item itemvalue="JUnit.QueueTest.peakShouldReturnNullForEmptyQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +185,7 @@
       <workItem from="1620141714829" duration="30000" />
       <workItem from="1620141856088" duration="795000" />
       <workItem from="1620144355036" duration="2686000" />
-      <workItem from="1620313327637" duration="2339000" />
+      <workItem from="1620313327637" duration="2866000" />
     </task>
     <servers />
   </component>
