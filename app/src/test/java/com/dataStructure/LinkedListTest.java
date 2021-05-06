@@ -11,60 +11,47 @@ public class LinkedListTest {
     @Test
     public void linkedListIsNotEmptyAfterAddingANode() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode = new _Node(1);
-        linkedList.add(newNode);
+        linkedList.add(1);
         assertFalse(linkedList.isEmpty());
     }
     @Test
     public void addsNodeToLinkedList() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        assertEquals(1, linkedList.head.object);
-        assertEquals("second", linkedList.head.next.object);
+        linkedList.add(1);
+        linkedList.add("second");
+        assertEquals(1, linkedList.getFirst());
+        assertEquals("second", linkedList.getLast());
     }
     @Test
-    public void getFirstShouldReturnFirstNodeFromLinkedList() {
+    public void getFirstShouldReturnFirstNodeDataFromLinkedList() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        assertEquals(newNode1, linkedList.getFirst());
+        linkedList.add(1);
+        linkedList.add("second");
+        assertEquals(1, linkedList.getFirst());
     }
     @Test
     public void getLastShouldReturnLastNodeFromLinkedList() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        assertEquals(newNode2, linkedList.getLast());
+        linkedList.add(1);
+        linkedList.add("second");
+        assertEquals("second", linkedList.getLast());
     }
     @Test
     public void getShouldReturnTheNthObject() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        _Node newNode3 = new _Node(true);
-        linkedList.add(newNode3);
-        assertEquals(newNode1, linkedList.get(1));
-        assertEquals(newNode2, linkedList.get(2));
-        assertEquals(newNode3, linkedList.get(3));
+        linkedList.add(1);
+        linkedList.add("second");
+        linkedList.add(true);
+        assertEquals(1, linkedList.get(1));
+        assertEquals("second", linkedList.get(2));
+        assertEquals(true, linkedList.get(3));
     }
     @Test
     public void getShouldThrowExceptionWhenIndexOutOfBounds() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        _Node newNode3 = new _Node(true);
-        linkedList.add(newNode3);
+        linkedList.add(1);
+        linkedList.add("second");
+        linkedList.add(true);
         assertThrows(IndexOutOfBoundsException.class, () -> {
             linkedList.get(4);
         });
@@ -79,54 +66,41 @@ public class LinkedListTest {
     @Test
     public void containsShould_ReturnTheIndexOfObjectIfExists() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        _Node newNode3 = new _Node(true);
-        linkedList.add(newNode3);
-        assertEquals(0, linkedList.contains(newNode1));
-        assertEquals(1, linkedList.contains(newNode2));
-        assertEquals(2, linkedList.contains(newNode3));
+        linkedList.add(1);
+        linkedList.add("second");
+        linkedList.add(true);
+        assertEquals(0, linkedList.contains(1));
+        assertEquals(1, linkedList.contains("second"));
+        assertEquals(2, linkedList.contains(true));
     }
     @Test
     public void containsShould_ReturnNeg1IfDoesNotExists() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        _Node newNode3 = new _Node(true);
-        linkedList.add(newNode3);
-        _Node notUsedNode = new _Node(false);
-        assertEquals(-1, linkedList.contains(notUsedNode));
+        linkedList.add(1);
+        linkedList.add("second");
+        linkedList.add(true);
+        assertEquals(-1, linkedList.contains(4));
     }
     @Test
     public void deleteShouldRemoveGivenNode() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        _Node newNode3 = new _Node(true);
-        linkedList.add(newNode3);
-        linkedList.delete(newNode2);
-        assertEquals(-1, linkedList.contains(newNode2));
-        assertEquals(0, linkedList.contains(newNode1));
-        assertEquals(1, linkedList.contains(newNode3));
+        linkedList.add(1);
+        linkedList.add("second");
+        linkedList.add(true);
+        linkedList.delete("second");
+        assertEquals(-1, linkedList.contains("second"));
+        assertEquals(0, linkedList.contains(1));
+        assertEquals(1, linkedList.contains(true));
     }
     @Test
     public void deleteShouldRemoveNodeGivenInt() {
         LinkedList linkedList = new LinkedList();
-        _Node newNode1 = new _Node(1);
-        linkedList.add(newNode1);
-        _Node newNode2 = new _Node("second");
-        linkedList.add(newNode2);
-        _Node newNode3 = new _Node(true);
-        linkedList.add(newNode3);
+        linkedList.add(1);
+        linkedList.add("second");
+        linkedList.add(true);
         linkedList.delete(2);
-        assertEquals(-1, linkedList.contains(newNode2));
-        assertEquals(0, linkedList.contains(newNode1));
-        assertEquals(1, linkedList.contains(newNode3));
+        assertEquals(-1, linkedList.contains("second"));
+        assertEquals(0, linkedList.contains(1));
+        assertEquals(1, linkedList.contains(true));
     }
 }

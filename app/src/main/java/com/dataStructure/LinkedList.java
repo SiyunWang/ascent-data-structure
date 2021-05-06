@@ -2,51 +2,65 @@ package com.dataStructure;
 
 public class LinkedList {
 
-    _Node head;
+    private static class Node {
+        private Object data;
+        private Node next;
+        private Node(Object data) {
+            this.data = data;
+        }
+
+    }
+
+    Node head;
+
     public boolean isEmpty() {
         return head == null;
     }
-    public void add (_Node newNode) {
+
+    public void add (Object newObject) {
+        Node newNode = new Node(newObject);
         if (head == null) {
             head = newNode;
             return;
         }
-        _Node cur = head;
+        Node cur = head;
         while (cur.next != null) {
             cur = cur.next;
         }
         cur.next = newNode;
     }
-    public _Node getFirst() {
-        return head;
+
+    public Object getFirst() {
+        return head.data;
     }
-    public _Node getLast() {
-        if (head == null || head.next == null) {
-            return head;
-        }
-        _Node cur = head;
+
+    public Object getLast() {
+        if (head == null) return null;
+        if (head.next == null) return head.data;
+        Node cur = head;
         while (cur.next != null) {
             cur = cur.next;
         }
-        return cur;
+        return cur.data;
     }
-    public _Node get(int num) {
-        _Node cur = head;
+
+    public Object get(int num) {
+        Node cur = head;
         int count = 1;
         while (cur != null) {
             if (count == num) {
-                return cur;
+                return cur.data;
             }
             cur = cur.next;
             count++;
         }
         throw new IndexOutOfBoundsException();
     }
-    public int contains(_Node node) {
-        _Node cur = head;
+    public int contains(Object object) {
+        Node cur = head;
         int index = 0;
         while (cur != null) {
-            if (node.equals(cur)) {
+            if (object.equals(cur.data)) {
                 return index;
             }
             cur = cur.next;
@@ -54,18 +68,19 @@ public class LinkedList {
         }
         return -1;
     }
-    public void delete(_Node node) {
-        _Node cur = null;
-        _Node next = head;
-        while (!next.equals(node)) {
-            cur = next;
-            next = next.next;
+    public void delete(Object object) {
+        Node prev = null;
+        Node cur = head;
+        while (!object.equals(cur.data)) {
+            prev = cur;
+            cur = cur.next;
         }
-        cur.next = next.next;
+        prev.next = cur.next;
     }
+
     public void delete(int num) {
-        _Node cur = null;
-        _Node next = head;
+        Node cur = null;
+        Node next = head;
         int count = 1;
         while (count != num) {
             cur = next;
@@ -74,12 +89,7 @@ public class LinkedList {
         }
         cur.next = next.next;
     }
+
 }
 
-class _Node {
-    Object object;
-    _Node next;
-    public _Node(Object object) {
-        this.object = object;
-    }
-}
+
