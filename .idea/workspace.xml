@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071381a5-3ec4-4fb4-910d-d1427dde2187" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/dataStructure/QueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/data/structure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/data/structure/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/data/structure/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/data/structure/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,107 +70,96 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dataStructure" />
       <recent name="data.structure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QueueTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.getFirstShouldReturnFirstNodeFromLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;data.structure.LinkedListTest.getFirstShouldReturnFirstNodeFromLinkedList&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LinkedListTest.getLastShouldReturnLastNodeFromLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;data.structure.LinkedListTest.getLastShouldReturnLastNodeFromLinkedList&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure.app.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.structure" />
-      <option name="MAIN_CLASS_NAME" value="data.structure.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.deleteShouldRemoveNodeGivenInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.structure.*" />
+          <option name="PATTERN" value="com.dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data.structure" />
-      <option name="MAIN_CLASS_NAME" value="data.structure.LinkedListTest" />
-      <option name="METHOD_NAME" value="deleteShouldRemoveNodeGivenInt" />
+      <option name="PACKAGE_NAME" value="com.dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.addShouldAddNewNodeToBackOfQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
+      <option name="METHOD_NAME" value="addShouldAddNewNodeToBackOfQueue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.deletesShouldRemoveGivenNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueTest.peakShouldReturnDataForTheFrontItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.structure.*" />
+          <option name="PATTERN" value="com.dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data.structure" />
-      <option name="MAIN_CLASS_NAME" value="data.structure.LinkedListTest" />
-      <option name="METHOD_NAME" value="deletesShouldRemoveGivenNode" />
+      <option name="PACKAGE_NAME" value="com.dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
+      <option name="METHOD_NAME" value="peakShouldReturnDataForTheFrontItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.peakShouldReturnNullForEmptyQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
+      <option name="METHOD_NAME" value="peakShouldReturnNullForEmptyQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest.removeShouldRemoveTheFrontItemAndReturnItsData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.QueueTest" />
+      <option name="METHOD_NAME" value="removeShouldRemoveTheFrontItemAndReturnItsData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.deleteShouldRemoveNodeGivenInt" />
-        <item itemvalue="JUnit.LinkedListTest.deletesShouldRemoveGivenNode" />
-        <item itemvalue="Gradle.LinkedListTest.getLastShouldReturnLastNodeFromLinkedList" />
-        <item itemvalue="Gradle.LinkedListTest.getFirstShouldReturnFirstNodeFromLinkedList" />
+        <item itemvalue="JUnit.QueueTest" />
+        <item itemvalue="JUnit.QueueTest.removeShouldRemoveTheFrontItemAndReturnItsData" />
+        <item itemvalue="JUnit.QueueTest.addShouldAddNewNodeToBackOfQueue" />
+        <item itemvalue="JUnit.QueueTest.peakShouldReturnDataForTheFrontItem" />
+        <item itemvalue="JUnit.QueueTest.peakShouldReturnNullForEmptyQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +185,8 @@
       <updated>1620141711818</updated>
       <workItem from="1620141714829" duration="30000" />
       <workItem from="1620141856088" duration="795000" />
-      <workItem from="1620144355036" duration="2421000" />
+      <workItem from="1620144355036" duration="2686000" />
+      <workItem from="1620313327637" duration="2339000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 package com.dataStructure;
 
 public class LinkedList {
+
     _Node head;
     public boolean isEmpty() {
         return head == null;
@@ -74,6 +75,7 @@ public class LinkedList {
         cur.next = next.next;
     }
 }
+
 class _Node {
     Object object;
     _Node next;
