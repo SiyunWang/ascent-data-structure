@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MergeSortTest {
-    MergeSort mergeSorter = new MergeSort();
+    Sorter mergeSorter = new MergeSort();
 
     @Test
     public void mergeSort_doNothing_emptyArray() {

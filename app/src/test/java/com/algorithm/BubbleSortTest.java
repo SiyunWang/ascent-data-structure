@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BubbleSortTest {
-    BubbleSort bubbleSorter = new BubbleSort();
+    Sorter bubbleSorter = new BubbleSort();
 
     @Test
     public void bubbleSort_doNothing_emptyArray() {
@@ -15,7 +15,6 @@ class BubbleSortTest {
         bubbleSorter.sort(array);
         // assert
         assertEquals(0, array.length);
-
     }
 
     @Test

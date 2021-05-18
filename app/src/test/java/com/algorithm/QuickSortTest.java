@@ -5,7 +5,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class QuickSortTest {
-    QuickSort quickSorter = new QuickSort();
+    Sorter quickSorter = new QuickSort();
+
     @Test
     public void quickSort_doNothing_emptyArray() {
         // setup
