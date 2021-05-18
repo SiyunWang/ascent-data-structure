@@ -28,10 +28,21 @@ class QuickSortTest {
     }
 
     @Test
-    public void quickSort_sortTheArray_sizeGreaterThanOne() {
+    public void quickSort_sortTheArray_evenSizeGreaterThanOne() {
         // setup
         int[] array = {3, 5, 6, 4, 7, 1};
         int[] expected = {1, 3, 4, 5, 6, 7};
+        // execute
+        quickSorter.sort(array);
+        // assert
+        assertArrayEquals(expected, array);
+    }
+
+    @Test
+    public void quickSort_sortTheArray_oddSizeGreaterThanOne() {
+        // setup
+        int[] array = {3, -1, 5, 6, 4, 7, 1};
+        int[] expected = {-1, 1, 3, 4, 5, 6, 7};
         // execute
         quickSorter.sort(array);
         // assert

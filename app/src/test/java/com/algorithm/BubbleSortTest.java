@@ -30,10 +30,21 @@ class BubbleSortTest {
     }
 
     @Test
-    public void bubbleSort_sortTheArray_sizeGreaterThanOne() {
+    public void bubbleSort_sortTheArray_evenSizeGreaterThanOne() {
         // setup
         int[] array = {3, 5, 6, 4, 7, 1};
         int[] expected = {1, 3, 4, 5, 6, 7};
+        // execute
+        bubbleSorter.sort(array);
+        // assert
+        assertArrayEquals(expected, array);
+    }
+
+    @Test
+    public void bubbleSort_sortTheArray_oddSizeGreaterThanOne() {
+        // setup
+        int[] array = {3, -1, 5, 6, 4, 7, 1};
+        int[] expected = {-1, 1, 3, 4, 5, 6, 7};
         // execute
         bubbleSorter.sort(array);
         // assert
