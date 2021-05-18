@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071381a5-3ec4-4fb4-910d-d1427dde2187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/algorithm/MergeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/algorithm/QuickSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/algorithm/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/algorithm/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <recent name="data.structure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest.mergeSort_doNothing_oneElementArray">
+  <component name="RunManager" selected="JUnit.QuickSortTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest.bubbleSort_doNothing_oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -111,14 +111,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.BubbleSortTest" />
-      <option name="METHOD_NAME" value="bubbleSort_doNothing_oneElementArray" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.QuickSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest.quickSort_doNothing_emptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.QuickSortTest" />
+      <option name="METHOD_NAME" value="quickSort_doNothing_emptyArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest.bubbleSort_sortTheArray_sizeGreaterThanOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortTest.quickSort_doNothing_oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -127,14 +142,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.BubbleSortTest" />
-      <option name="METHOD_NAME" value="bubbleSort_sortTheArray_sizeGreaterThanOne" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.QuickSortTest" />
+      <option name="METHOD_NAME" value="quickSort_doNothing_oneElementArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest.mergeSort_doNothing_emptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QuickSortTest.quickSort_sortTheArray_sizeGreaterThanOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -143,24 +158,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.MergeSortTest" />
-      <option name="METHOD_NAME" value="mergeSort_doNothing_emptyArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortTest.mergeSort_doNothing_oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure.app.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.algorithm" />
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.MergeSortTest" />
-      <option name="METHOD_NAME" value="mergeSort_doNothing_oneElementArray" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.QuickSortTest" />
+      <option name="METHOD_NAME" value="quickSort_sortTheArray_sizeGreaterThanOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MergeSortTest.mergeSort_doNothing_oneElementArray" />
-        <item itemvalue="JUnit.MergeSortTest.mergeSort_doNothing_emptyArray" />
+        <item itemvalue="JUnit.QuickSortTest" />
+        <item itemvalue="JUnit.QuickSortTest.quickSort_sortTheArray_sizeGreaterThanOne" />
+        <item itemvalue="JUnit.QuickSortTest.quickSort_doNothing_oneElementArray" />
+        <item itemvalue="JUnit.QuickSortTest.quickSort_doNothing_emptyArray" />
         <item itemvalue="JUnit.BubbleSortTest" />
-        <item itemvalue="JUnit.BubbleSortTest.bubbleSort_sortTheArray_sizeGreaterThanOne" />
-        <item itemvalue="JUnit.BubbleSortTest.bubbleSort_doNothing_oneElementArray" />
       </list>
     </recent_temporary>
   </component>
