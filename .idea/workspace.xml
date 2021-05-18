@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071381a5-3ec4-4fb4-910d-d1427dde2187" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dataStructure/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/dataStructure/AppTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/algorithm/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data-structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data-structure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -69,11 +75,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.algorithm" />
       <recent name="com.dataStructure" />
       <recent name="data.structure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest">
+  <component name="RunManager" selected="JUnit.BubbleSortTest.bubbleSort_doNothing_oneElementArray">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -85,7 +92,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleSortTest.bubbleSort_doNothing_emptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.BubbleSortTest" />
+      <option name="METHOD_NAME" value="bubbleSort_doNothing_emptyArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTest.bubbleSort_doNothing_oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.BubbleSortTest" />
+      <option name="METHOD_NAME" value="bubbleSort_doNothing_oneElementArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +133,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.peekShouldReturnNullForEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.linkedListIsEmptyWhenInitiated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +148,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
-      <option name="METHOD_NAME" value="peekShouldReturnNullForEmptyStack" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.LinkedListTest" />
+      <option name="METHOD_NAME" value="linkedListIsEmptyWhenInitiated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.peekShouldReturnTheTopObjectOnNonEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.linkedListIsNotEmptyAfterAddingANode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -125,40 +164,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
-      <option name="METHOD_NAME" value="peekShouldReturnTheTopObjectOnNonEmptyStack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.popShouldRemoveTheTopNodeAndReturnItsData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure.app.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
-      <option name="METHOD_NAME" value="popShouldRemoveTheTopNodeAndReturnItsData" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.pushShouldAddNewObjectToTheTopOfStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure.app.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.StackTest" />
-      <option name="METHOD_NAME" value="pushShouldAddNewObjectToTheTopOfStack" />
+      <option name="MAIN_CLASS_NAME" value="com.dataStructure.LinkedListTest" />
+      <option name="METHOD_NAME" value="linkedListIsNotEmptyAfterAddingANode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.StackTest.popShouldRemoveTheTopNodeAndReturnItsData" />
-        <item itemvalue="JUnit.StackTest.pushShouldAddNewObjectToTheTopOfStack" />
-        <item itemvalue="JUnit.StackTest.peekShouldReturnTheTopObjectOnNonEmptyStack" />
-        <item itemvalue="JUnit.StackTest.peekShouldReturnNullForEmptyStack" />
+        <item itemvalue="JUnit.BubbleSortTest.bubbleSort_doNothing_oneElementArray" />
+        <item itemvalue="JUnit.BubbleSortTest.bubbleSort_doNothing_emptyArray" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.linkedListIsNotEmptyAfterAddingANode" />
+        <item itemvalue="JUnit.LinkedListTest.linkedListIsEmptyWhenInitiated" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +192,7 @@
       <workItem from="1620141714829" duration="30000" />
       <workItem from="1620141856088" duration="795000" />
       <workItem from="1620144355036" duration="2686000" />
-      <workItem from="1620313327637" duration="3454000" />
+      <workItem from="1620313327637" duration="4539000" />
     </task>
     <servers />
   </component>
