@@ -5,13 +5,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class QuickSortTest {
-    QuickSort sorter = new QuickSort();
+    QuickSort quickSorter = new QuickSort();
     @Test
     public void quickSort_doNothing_emptyArray() {
         // setup
         int[] array = {};
         // execute
-        sorter.quickSort(array);
+        quickSorter.sort(array);
         // assert
         assertEquals(0, array.length);
     }
@@ -22,7 +22,7 @@ class QuickSortTest {
         int[] array = {5};
         int[] expected = {5};
         // execute
-        sorter.quickSort(array);
+        quickSorter.sort(array);
         // assert
         assertArrayEquals(expected, array);
     }
@@ -33,7 +33,7 @@ class QuickSortTest {
         int[] array = {3, 5, 6, 4, 7, 1};
         int[] expected = {1, 3, 4, 5, 6, 7};
         // execute
-        sorter.quickSort(array);
+        quickSorter.sort(array);
         // assert
         assertArrayEquals(expected, array);
     }

@@ -1,16 +1,17 @@
 package com.algorithm;
 
-public class MergeSort {
-    public void mergeSort(int[] array) {
+public class MergeSort implements Sorter{
+    @Override
+    public void sort(int[] array) {
         if (array.length <= 1) return;
-        mergeSort(array, 0, array.length - 1);
+        sort(array, 0, array.length - 1);
     }
 
-    public void mergeSort(int[] array, int left, int right) {
+    public void sort(int[] array, int left, int right) {
         if (left >= right) return;
         int mid = left + (right - left) / 2;
-        mergeSort(array, left, mid);
-        mergeSort(array, mid + 1, right);
+        sort(array, left, mid);
+        sort(array, mid + 1, right);
         merge(array, left, mid, right);
     }
 
@@ -45,4 +46,5 @@ public class MergeSort {
             array[i] = temp[i - left];
         }
     }
+
 }

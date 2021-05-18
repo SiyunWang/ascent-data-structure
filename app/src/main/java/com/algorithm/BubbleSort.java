@@ -1,8 +1,8 @@
 package com.algorithm;
 
-public class BubbleSort {
+public class BubbleSort implements Sorter{
 
-    public void bubbleSort(int[] array) {
+    public void sort(int[] array) {
         if (array.length <= 1) return;
         boolean isSorted = false;
         int lastUnsortedIndex = array.length - 1;
@@ -25,4 +25,5 @@ public class BubbleSort {
         array[left] = array[right];
         array[right] = temp;
     }
+
 }
