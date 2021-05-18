@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="071381a5-3ec4-4fb4-910d-d1427dde2187" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/algorithm/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data-structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data-structure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/algorithm/MergeSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/algorithm/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/algorithm/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <recent name="data.structure" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest.bubbleSort_doNothing_oneElementArray">
+  <component name="RunManager" selected="JUnit.MergeSortTest.mergeSort_doNothing_oneElementArray">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -92,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest.bubbleSort_doNothing_emptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +97,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.algorithm" />
       <option name="MAIN_CLASS_NAME" value="com.algorithm.BubbleSortTest" />
-      <option name="METHOD_NAME" value="bubbleSort_doNothing_emptyArray" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,48 +118,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleSortTest.bubbleSort_sortTheArray_sizeGreaterThanOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructure.*" />
+          <option name="PATTERN" value="com.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.LinkedListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTest.linkedListIsEmptyWhenInitiated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structure.app.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.LinkedListTest" />
-      <option name="METHOD_NAME" value="linkedListIsEmptyWhenInitiated" />
+      <option name="PACKAGE_NAME" value="com.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.BubbleSortTest" />
+      <option name="METHOD_NAME" value="bubbleSort_sortTheArray_sizeGreaterThanOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.linkedListIsNotEmptyAfterAddingANode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest.mergeSort_doNothing_emptyArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structure.app.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dataStructure.*" />
+          <option name="PATTERN" value="com.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dataStructure" />
-      <option name="MAIN_CLASS_NAME" value="com.dataStructure.LinkedListTest" />
-      <option name="METHOD_NAME" value="linkedListIsNotEmptyAfterAddingANode" />
+      <option name="PACKAGE_NAME" value="com.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.MergeSortTest" />
+      <option name="METHOD_NAME" value="mergeSort_doNothing_emptyArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.mergeSort_doNothing_oneElementArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure.app.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.algorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.MergeSortTest" />
+      <option name="METHOD_NAME" value="mergeSort_doNothing_oneElementArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeSortTest.mergeSort_doNothing_oneElementArray" />
+        <item itemvalue="JUnit.MergeSortTest.mergeSort_doNothing_emptyArray" />
+        <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.BubbleSortTest.bubbleSort_sortTheArray_sizeGreaterThanOne" />
         <item itemvalue="JUnit.BubbleSortTest.bubbleSort_doNothing_oneElementArray" />
-        <item itemvalue="JUnit.BubbleSortTest.bubbleSort_doNothing_emptyArray" />
-        <item itemvalue="JUnit.LinkedListTest" />
-        <item itemvalue="JUnit.LinkedListTest.linkedListIsNotEmptyAfterAddingANode" />
-        <item itemvalue="JUnit.LinkedListTest.linkedListIsEmptyWhenInitiated" />
       </list>
     </recent_temporary>
   </component>
